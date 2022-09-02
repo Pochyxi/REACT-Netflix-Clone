@@ -59,3 +59,9 @@ height: 200px !important;
   color: white;
   font-size: 1rem;
 }
+.budka-button-main {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}

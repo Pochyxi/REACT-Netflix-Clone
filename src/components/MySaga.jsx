@@ -25,10 +25,10 @@ class MySaga extends Component {
                     }
                 </div>
                 <div className='d-none d-lg-flex justify-content-between pb-3'>
-                    <button className='budka-button' onClick={(e) => {
+                    <button className='budka-button-main' onClick={(e) => {
                         this.scrollRight(this.props.n);
                     }}><CaretLeftFill /></button>
-                    <button className='budka-button' onClick={(e) => {
+                    <button className='budka-button-main' onClick={(e) => {
                         this.scrollLeft(this.props.n);
                     }}><CaretRightFill /></button>
                 </div>
