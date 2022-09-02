@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.NavBrand {
+  width: 100px;
+  height: 55px;
+}
+#navDropdown {
+  border: 1px solid gray;
+  padding: 3px;
+  font-size: .8em;
+}
+.dropdown-menu, .budka-main {
+  background-color: #221f1f!important;
+}
+.dropdown-item {
+  color: white!important;
+}
+a {
+  text-decoration: none;
+}
+svg {
+  font-size:1.3rem;
+}
+.budka-img {
+  transition: transform 0.2s;
+}
+.budka-img:hover {
+  transform: scale(1.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.budka-nav {
+  background-color: #221f1f!important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.budka-footer a {
+  color: #838383!important;
+}
+.budka-footer .budka-copyright {
+  color: #838383!important;
+  text-align: left;
+}
+.budka-button {
+  border: 1px solid #838383;
+}
+@media screen and (max-width: 991px) {
+  .budka-img {
+    width: 300px !important;
+    height: 500px !important;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@media screen and (min-width: 992px){
+.budka-img{
+width: 400px !important;
+height: 200px !important;
+}
+}
+.budka-saga::-webkit-scrollbar {
+  display: none;
+}
+.budka-button {
+  border: none;
+  background-color: transparent;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 3rem;
 }
