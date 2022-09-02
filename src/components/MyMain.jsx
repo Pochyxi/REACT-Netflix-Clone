@@ -36,13 +36,13 @@ class MyMain extends Component {
         return (
             <Container className='budka-main' fluid>
 
-                <MySaga title={'Harry Potter'} saga={this.state.harryPotter} />
+                <MySaga n={0} title={'Harry Potter'} saga={this.state.harryPotter} />
 
 
-                <MySaga title={'Star Wars'} saga={this.state.starWars} />
+                <MySaga n={1} title={'Star Wars'} saga={this.state.starWars} />
 
 
-                <MySaga title={'Fast And Furious'} saga={this.state.fastAndFurious} />
+                <MySaga n={2} title={'Fast And Furious'} saga={this.state.fastAndFurious} />
             </Container>
         )
     }
